@@ -1,0 +1,52 @@
+h1{
+    color: white;
+    border-bottom: white 1px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+     
+    background-color: rgb;
+    background-image: url('bck-cv.jpg');
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-clip: border-box;
+   
+}
+a {
+    color: blue; /* Couleur des liens normaux */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+/* Liens survolés */
+a:hover {
+    color: red; /* Couleur des liens survolés */
+    text-decoration: underline; /* Ajoute un soulignement */
+}
+
+/* Liens visités */
+a:visited {
+    color: rgb(224, 10, 224); /* Couleur des liens visités */
+}
+
+
+
+h2{
+    color:white;
+    text-align: center;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.encadrement {
+    background-color: white; /* Couleur de fond */
+    border: 2px dashed darkblue; /* Bordure */
+    width: 700px;
+    border-radius: 5px; /* Coins arrondis */
+    padding: 1px; /* Espace autour du texte */
+    margin: 10px auto ; /* Marge autour de l'encadrement */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     
+   
+}
